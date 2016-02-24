@@ -97,7 +97,7 @@ div.medium > div.file > span {
 }
 
 div.medium > div.overlay {
-	width: 128px;
+	width: 250px;
 	height: 24px;
 	background: black;
 	opacity: 0.5; -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=50)"; *filter:alpha(opacity=50);
@@ -107,8 +107,8 @@ div.medium > div.overlay {
 div.medium > div.play {
 	top: 0;
 	left: 0;
-	width: 128px;
-	height: 96px;
+	width: 250px;
+	height: 141px;
 	opacity: 0.0; -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)"; *filter:alpha(opacity=0);
 	z-index: 2;
 }
@@ -124,15 +124,15 @@ div.medium.playing > div.play {
 }
 
 div.medium > div.thumb {
-	width: 128px;
-	height: 96px;
+	width: 250px;
+	height: 141px;
 	z-index: 1;
 }
 
 div.medium > div.thumb > span.spinner {
 	position: absolute;
-	top: 34px;
-	left: 40px;
+	top: 55px;
+	left: 95px;
 	display: inline-block; *zoom: 1;
 	width: 48px;
 	height: 48px;
@@ -168,7 +168,7 @@ div.medium.expanded.playing > div.play:hover {
 }
 
 div.medium.expanded > div.keywords {
-	height: 96px;
+	height: 141px;
 }
 
 div.medium.expanded > div.keywords > .details {
@@ -183,7 +183,7 @@ div.medium.thumb,
 div.media.tile > div.medium.expanded {
 	position: relative;
 	display: inline-block; *display: inline; *zoom: 1;
-	height: 115px;
+	height: 160px;
 	margin: 0 5px 5px 0;
 	border: 5px solid transparent;
 	border-radius: 3px; -moz-border-radius: 3px;
@@ -191,7 +191,7 @@ div.media.tile > div.medium.expanded {
 }
 
 div.medium.thumb {
-	width: 128px;
+	width: 250px;
 }
 
 div.media.tile > div.medium.expanded {
@@ -204,13 +204,13 @@ div.medium.thumb > div {
 
 div.medium.thumb > div.file,
 div.media.tile > div.medium.expanded > div.file {
-	top: 96px;
+	top: 143px;
 	left: 0;
 	margin: 3px 0 1px;
 }
 
 div.medium.thumb > div.file {
-	width: 124px;
+	width: 246px;
 }
 
 div.media.tile > div.medium.expanded > div.file {
@@ -245,18 +245,18 @@ div.media.tile > div.medium.expanded > div.rater {
 div.medium.thumb > div.check,
 div.media.tile > div.medium.expanded > div.check {
 	top: 2px;
-	left: 105px;
+	left: 227px;
 }
 
 div.media.tile > div.medium.expanded > div.keywords {
 	top: 0;
-	left: 138px;
+	left: 260px;
 	width: 140px;
 }
 
 div.media.tile > div.medium.expanded > div.tagger {
 	top: 0;
-	left: 288px;
+	left: 410px;
 	height: 115px;
 }
 
@@ -273,7 +273,7 @@ div.media.list > div.medium.expanded {
 div.media.list > div.medium.expanded {
 	position: relative;
 	padding: 2px 0;
-	height: 122px;
+	height: 168px;
 }
 
 div.medium.compact > div.check,
@@ -306,7 +306,7 @@ div.media.list > div.medium.expanded > div.check > input {
 }
 
 div.medium.compact > div.file {
-	width: 300px;
+	width: 500px;
 }
 
 div.media.list > div.medium.expanded > div.file {
@@ -330,8 +330,8 @@ div.medium.compact.playing > div.file > span {
 
 div.media.list > div.medium.expanded > div.keywords {
 	top: 24px;
-	left: 163px;
-	width: 257px; /* 420 - 163 */
+	left: 285px;
+	width: 135px; /* 420 - 163 */
 }
 
 div.media.list > div.medium.expanded > div.keywords > span.dimensions {
@@ -360,7 +360,7 @@ div.media.list > div.medium.expanded > div.rater {
 
 div.media.list > div.medium.expanded > div.rater {
 	top: 24px;
-	left: 330px;
+	left: 530px;
 }
 
 div.medium.compact > div.tagger,
@@ -372,7 +372,7 @@ div.media.list > div.medium.expanded > div.tagger {
 
 div.media.list > div.medium.expanded > div.tagger {
 	top: 24px;
-	left: 420px;
+	left: 620px;
 }
 
 /******************************

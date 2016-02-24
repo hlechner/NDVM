@@ -126,15 +126,15 @@ div.medium.playing > div.keywords span {
 }
 
 div.medium > div.play > div.image {
-	top: 0px;
-	left: 28px;
+	top: 20px;
+	left: 90px;
 	width: 72px;
 	height: 72px;
 	background: url('/image/wwidd_sprites.png') no-repeat 0 0;
 }
 
 div.media.list > div.medium.expanded > div.play > div.image {
-	top: 12px;
+	top: 35px;
 }
 
 div.medium.compact.playing > div.file > span {
